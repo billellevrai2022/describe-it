@@ -77,7 +77,7 @@ export default function Home() {
   const positiveFeedback = async (prompt, result) => {
     console.log("Thank you for your feedback");
     const formattedData = {
-      prompt: `You're a Facebook advertising manager helping me set up a campaign for my product, you know all facebook target audience list Can you provide me with ten target audience ,  knowing that my product is :${prompt}`,
+      prompt: `You're a Facebook advertising manager helping me set up a campaign for my produc :${prompt}`,
       completion: result,
     };
     const response = await fetch("/api/feedback", {
