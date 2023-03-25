@@ -103,7 +103,7 @@ export default function Home() {
         ></script>
         <link rel="shortcut icon" href="/faviconC.ico" />
 
-        <title>Describe it</title>
+        <title>My Trget</title>
       </Head>
       <main>
         {/* Hero section */}
@@ -138,7 +138,7 @@ export default function Home() {
                 </div>
                 <div className="mt-6 sm:max-w-xl">
                   <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl text-center">
-                  Describe-it
+                  My Targer
                   </h1>
                   <p className="mt-6 text-xl text-gray-500">
   مرحبا بكم في خدمة تحديد الهدف بالذكاء الاصطناعي 🤖 
