@@ -77,7 +77,7 @@ export default function Home() {
   const positiveFeedback = async (prompt, result) => {
     console.log("Thank you for your feedback");
     const formattedData = {
-      prompt: `like chatgpt, Please write me in arabic a description for my Product to make it as  a facebook ad , use emoji , the product is :   ${prompt}`,
+      prompt: `You're a Facebook advertising manager helping me set up a campaign for my product, you know all facebook target audience list Can you provide me with ten target audience ,  knowing that my product is :${prompt}`,
       completion: result,
     };
     const response = await fetch("/api/feedback", {
@@ -92,6 +92,9 @@ export default function Home() {
   return (
     <div className="bg-white">
       <Head>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5205843473665539"
+     crossorigin="anonymous">
+    </script>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         {/* <Script src="https://upload-widget.cloudinary.com/global/all.js" /> */}
         <script
